@@ -14,36 +14,36 @@
 	cursor: help;
 }
 
-	.tag.element {
-		background: yellowgreen;
-	}
+.tag.element {
+	background: yellowgreen;
+}
 
-	.tag.array {
-		background: hsl(350, 80%, 55%);
-	}
+.tag.array {
+	background: hsl(350, 80%, 55%);
+}
 
-	.tag.set {
-		background: hsl(190, 52%, 50%);
-	}
+.tag.set {
+	background: hsl(190, 52%, 50%);
+}
 
-	.tag.full {
-		background: #c00;
-	}
+.tag.full {
+	background: #c00;
+}
 
 .args {}
 
-	.args dt {
-		margin-top: .6em;
-		font-weight: bold;
-		font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	}
+.args dt {
+	margin-top: .6em;
+	font-weight: bold;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
 
-	.args dd.type {
-		width: 100%;
-		margin-top: -1.5em;
-		font-style: italic;
-		text-align: right;
-	}
+.args dd.type {
+	width: 100%;
+	margin-top: -1.5em;
+	font-style: italic;
+	text-align: right;
+}
 
 @media (min-width: 75em) and (min-height: 40em) {
 	#toc {
@@ -73,23 +73,23 @@
 	}
 }
 
-	#toc ol {
-		list-style-type: none;
-	}
+#toc ol {
+	list-style-type: none;
+}
 
-	#toc > ol {
-		padding-left: 0;
-		font-weight: bold;
-	}
+#toc > ol {
+	padding-left: 0;
+	font-weight: bold;
+}
 
-	#toc ol ol {
-		font-weight: normal;
-		padding-left: 1em;
-	}
+#toc ol ol {
+	font-weight: normal;
+	padding-left: 1em;
+}
 
-		#toc ol ol a {
-			color: hsl(227, 15%, 24%);
-		}
+#toc ol ol a {
+	color: hsl(227, 15%, 24%);
+}
 
 .implementation + pre {
 	display: none;
